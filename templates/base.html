@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class= 'form'>
+<form action="" method="POST" >
+    {% csrf_token %}
+    <input type="text" placeholder="Add an item" name= 'items'>
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+
+.stripe{
+    text-decoration: line-through;
+}
+
+.form{
+    margin:30px;
+    text-align: center;
+    padding: 40px;
+}
+.form form input{
+    padding:15px 50px;
+}
